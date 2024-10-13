@@ -1,0 +1,39 @@
+.App{
+  text-align: center;
+  padding: 20px;
+}
+.App input{
+  padding: 5px;
+  outline: none;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.App button{
+  border-radius: 20px;
+  padding: 5px 15px;
+  background-color: #03a9f4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.App p{
+  margin-right: 30px;
+}
+.App > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.App > div span:first-child{
+  margin-right: 5px;
+}
+.App > div span{
+  padding: 5px 15px;
+  background-color: yellow;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+}
